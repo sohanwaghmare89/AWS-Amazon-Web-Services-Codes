@@ -1,4 +1,4 @@
-import boto3
+import boto3 
 import zipfile
 import os
 import subprocess
@@ -10,7 +10,7 @@ password = "myxyzpassofsohan@1111"
 api_key = "AKIA2MNlkjkljkljJSDLKKJFJKDSJJ"
 api_secret = "qMaARTI8sPO8sdnjonkjnhjjibSDKdLKJflkkjdslkfE"
 
-# Step 2: Connect to AWS using boto3
+# Step 2: Connect to AWS using boto3 lib
 ec2 = boto3.client(
     'ec2',
     aws_access_key_id=api_key,
@@ -78,3 +78,4 @@ if is_process_running("xyz.exe"):
     print("sohan's xyz.exe is running.")
 else:
     print("sohan's xyz.exe is not running.")
+
