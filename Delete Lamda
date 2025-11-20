@@ -1,3 +1,4 @@
+#To delete lambds function with the boto3.
 import boto3
 
 # Replace with your AWS API key and secret key
